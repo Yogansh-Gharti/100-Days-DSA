@@ -10,6 +10,7 @@ void rotate(int** matrix, int matrixSize, int* matrixColSize) {
         }
     }
 
+
     // Step 2: reverse each row
     for(int i = 0; i < n; i++) {
         int left = 0, right = n - 1;
